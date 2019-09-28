@@ -1,0 +1,42 @@
+{
+  "name": "svelte-fontawesome",
+  "version": "0.1.0",
+  "description": "Font Awesome 5 Svelte component",
+  "main": "index.svelte",
+  "svelte": "index.svelte",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RemiKalbe/svelte-fontawesome.git"
+  },
+  "keywords": [
+    "fontawesome",
+    "svelte",
+    "sapper",
+    "SSR",
+    "svg"
+  ],
+  "author": "Rémi Kalbe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RemiKalbe/svelte-fontawesome/issues"
+  },
+  "homepage": "https://github.com/RemiKalbe/svelte-fontawesome#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "rollup": "^1.21.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^5.1.0",
+    "svelte": "^3.12.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "eslint": "^6.4.0",
+    "eslint-plugin-svelte3": "^2.7.3"
+  }
+}
