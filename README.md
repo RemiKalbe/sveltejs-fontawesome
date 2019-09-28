@@ -1,4 +1,4 @@
-# svelte-fontawesome
+# sveltejs-fontawesome
 
 - Sapper support
 - Duotone support
@@ -6,7 +6,7 @@
 ## Installation
 
 ```bash
-npm i svelte-fontawesome
+npm i sveltejs-fontawesome
 
 OR
 
@@ -64,7 +64,7 @@ yarn add @fortawesome/pro-duotone-svg-icons
 ```svelte
 
 <script>
-  import Fa from "svelte-fontawesome"
+  import Fa from "sveltejs-fontawesome"
   import { faCircle } from '@fortawesome/free-solid-svg-icons'
 </script>
 
