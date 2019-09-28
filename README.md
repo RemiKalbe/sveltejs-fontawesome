@@ -1,4 +1,4 @@
-# svelte-fontawesome
+# sveltejs-fontawesome
 
 - Sapper support
 - Duotone support
@@ -6,7 +6,7 @@
 ## Installation
 
 ```bash
-npm i svelte-fontawesome
+npm i sveltejs-fontawesome
 ```
 
 ### Requirements
