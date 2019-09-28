@@ -1,4 +1,4 @@
-# sveltejs-fontawesome
+# svelte-fontawesome
 
 - Sapper support
 - Duotone support
@@ -6,16 +6,24 @@
 ## Installation
 
 ```bash
-npm i sveltejs-fontawesome
-```
+npm i svelte-fontawesome
 
-## Usage
+OR
+
+yarn add svelte-fontawesome
+```
 
 ### Requirements
 
 ```bash
 npm i @fortawesome/fontawesome-svg-core
+
+OR
+
+yarn add @fortawesome/fontawesome-svg-core
 ```
+
+## Usage
 
 ### Install the icons your want
 
@@ -25,6 +33,12 @@ npm i @fortawesome/fontawesome-svg-core
 npm i @fortawesome/free-solid-svg-icons
 npm i @fortawesome/free-brands-svg-icons
 npm i @fortawesome/free-regular-svg-icons
+
+OR
+
+yarn add @fortawesome/free-solid-svg-icons
+yarn add @fortawesome/free-brands-svg-icons
+yarn add @fortawesome/free-regular-svg-icons
 ```
 
 #### Pro icons
@@ -36,6 +50,13 @@ npm i @fortawesome/pro-solid-svg-icons
 npm i @fortawesome/pro-regular-svg-icons
 npm i @fortawesome/pro-light-svg-icons
 npm i @fortawesome/pro-duotone-svg-icons
+
+OR
+
+yarn add @fortawesome/pro-solid-svg-icons
+yarn add @fortawesome/pro-regular-svg-icons
+yarn add @fortawesome/pro-light-svg-icons
+yarn add @fortawesome/pro-duotone-svg-icons
 ```
 
 ### Example
@@ -43,7 +64,7 @@ npm i @fortawesome/pro-duotone-svg-icons
 ```svelte
 
 <script>
-  import Fa from "sveltejs-fontawesome"
+  import Fa from "svelte-fontawesome"
   import { faCircle } from '@fortawesome/free-solid-svg-icons'
 </script>
 
@@ -59,7 +80,7 @@ npm i @fortawesome/pro-duotone-svg-icons
 
 | Attribute        | Usage                                                                                                                                           |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| icon             | The icon you imported from font awesome                                                                                                         |
+| icon `required`  | The icon you imported from font awesome                                                                                                         |
 | color            | Can be anything that the fill svg property supports                                                                                             |
 | secondaryColor   | If you are using Duotone it's the secondary color                                                                                               |
 | secondaryOpacity | If you are using Duotone it's the opacity of the secondary color                                                                                |
