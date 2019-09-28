@@ -9,13 +9,13 @@
 npm i sveltejs-fontawesome
 ```
 
+## Usage
+
 ### Requirements
 
 ```bash
 npm i @fortawesome/fontawesome-svg-core
 ```
-
-## Usage
 
 ### Install the icons your want
 
