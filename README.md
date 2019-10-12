@@ -47,7 +47,7 @@ npm i @fortawesome/pro-duotone-svg-icons
 ```svelte
 
 <script>
-  import Fa from "svelte-fontawesome"
+  import Fa from "sveltejs-fontawesome"
   import { faCircle } from '@fortawesome/free-solid-svg-icons'
 </script>
 
