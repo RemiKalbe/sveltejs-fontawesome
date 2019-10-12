@@ -1,6 +1,6 @@
 <script>
   export let icon;
-  export let color;
+  export let color = "#000000";
   export let secondaryColor = color;
   export let secondaryOpacity = "0.5";
   export let size = "xs";
