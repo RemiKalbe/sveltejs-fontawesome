@@ -1,7 +1,3 @@
-⛔️⛔️⛔️
-NOT WORKING WITH SAPPER
-⛔️⛔️⛔️
-
 # sveltejs-fontawesome
 
 - Sapper support
@@ -9,8 +5,16 @@ NOT WORKING WITH SAPPER
 
 ## Installation
 
+### For Svelte
+
 ```bash
 npm i sveltejs-fontawesome
+```
+
+### For Sapper
+
+```bash
+npm i -D sveltejs-fontawesome
 ```
 
 ### Requirements
