@@ -1,3 +1,7 @@
+⛔️⛔️⛔️
+NOT WORKING WITH SAPPER
+⛔️⛔️⛔️
+
 # sveltejs-fontawesome
 
 - Sapper support
