@@ -71,7 +71,7 @@ npm i @fortawesome/pro-duotone-svg-icons
 | color            | Can be anything that the fill svg property supports                                                                                             |
 | secondaryColor   | If you are using Duotone it's the secondary color                                                                                               |
 | secondaryOpacity | If you are using Duotone it's the opacity of the secondary color                                                                                |
-| size             | Can be a string from [this list](https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons#scale) or a standard css size in any units. |
+| size             | Can be a string from [this list](https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons#scale) (without the fa-) or a standard css size in any units. |
 | flip             | Can be "h" for horizontal flip, "v" for vertical flip, or "hv" for both.                                                                        |
 | rotate           | In degrees                                                                                                                                      |
 | style            | Custom css style on the &lt;svg>                                                                                                                |
