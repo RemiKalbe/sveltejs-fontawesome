@@ -9,8 +9,8 @@
   export let style = "";
 
   let height = size;
-  let flipX = "0";
-  let flipY = "0";
+  let flipX = "1";
+  let flipY = "1";
 
   $: {
     switch (size) {
@@ -79,7 +79,7 @@
   {height}
   aria-hidden="true"
   role="img"
-  style={`transform: rotate(${rotate}turn scaleX(${flipX}) scaleY(${flipY}); ${style}`}>
+  style={`transform: rotate(${rotate}turn) scaleX(${flipX}) scaleY(${flipY}); ${style}`}>
 
   {#if Array.isArray(icon.icon[4])}
     <path
