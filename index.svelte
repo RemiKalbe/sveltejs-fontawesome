@@ -66,8 +66,8 @@
         flipY = -1;
         break;
       default:
-        flipX = 0;
-        flipY = 0;
+        flipX = 1;
+        flipY = 1;
         break;
     }
   }
