@@ -55,10 +55,10 @@ npm i @fortawesome/pro-duotone-svg-icons
   import { faCircle } from '@fortawesome/free-solid-svg-icons'
 </script>
 
-<Fa>
+<Fa
   icon={faCircle}
   size="sm"
-  color="#000000"
+  color="#000000">
 </Fa>
 
 ```
